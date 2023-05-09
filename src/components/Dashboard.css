@@ -1,0 +1,155 @@
+.dropdown-item{
+    width: 150px;
+    }
+    .dropdown-item:hover{
+      background: transparent;
+    }
+    .dropdown-item:active{
+      background: transparent;
+    }
+    .dropdown-menu{
+      width: 150px;
+    }
+    .dashboard h2 {
+      text-transform: uppercase;
+      font-family: serif;
+      font-weight: 600;
+      text-decoration: underline;
+      color: #1976d2;
+    }
+    .dashboard-earning {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      background: #fbe892;
+      width: 80%;
+      height: 40px;
+      padding-top: 5px;
+      border-radius: 4px;
+      color: rgb(126, 131, 135);
+      font-size: 17px;
+    }
+    .company-logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .dashboard-profile{
+      box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+      /* background: #000; */
+      width: 300px;
+      border-radius: 8px;
+      margin: 10px 0;
+      padding: 10px 0;
+    }
+    .dashboard-profile-center{
+      display: flex;
+      justify-content: center;
+    }
+    .dashboard-Task{
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      margin: auto;
+    }
+    .dashboard-Task button{
+      width: 200px;
+    }
+    
+    .dashboard-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: auto;
+      width: 350px;
+      height: 140px;
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    
+    
+    .dashboard-boxs h3 {
+      color: #1976d2;
+      font-weight: 600;
+      font-size: 28px;
+    }
+    .box-row{
+      display: flex;
+      flex-direction: row;
+    }
+    .box-col{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      align-items: center;
+    }
+    .box-col-icon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60px;
+      height: 60px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+    }
+    .dashboard-icon{
+      color:rgb(36, 144, 36);
+      font-size: 25px;
+      font-weight: 800;
+    }
+    .dashboard-icon2{
+      color: palevioletred;
+      font-size: 27px;
+      font-weight: 800;
+    }
+    .rowBalanceCard{
+    margin: 8px 0;
+      display: flex;
+      justify-content: center;
+    }
+    .balanceCard{
+      box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+      margin: 10px 0;
+      padding: 12px 20px;
+      border-radius: 8px;
+      border-top: 1px solid green;
+      border-left: 6px solid green;
+    }
+    .balanceCard:nth-child(1){
+      border-left: 6px solid palevioletred;
+      border-top: 1px solid palevioletred;
+    }
+    .balanceCard:nth-child(2){
+      border-left: 6px solid #1976d2;
+      border-top: 1px solid #1976d2;
+    }
+    .balanceCard p{
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 500;
+      font-size: 15px;
+    }
+    .balanceCard h4{
+      font-size: 20px;
+      font-weight: 700;
+      color: gray;
+    }
+    .incomeCard{
+      display: flex;
+      border: 1px solid #1976d2;
+      height: 200px;
+      background: transparent;
+    }
+    .income-border{
+      border-right: 1px solid palevioletred;
+    }
+    .referralCard{
+      margin: 10px 0;
+      padding: 15px 20px;
+      box-shadow: 1px 3px 5px rgba(0,0,0,0.40);
+      border-radius: 6px;
+      /* border: 1px solid #1976d2; */
+      background: transparent;
+      border: none;
+      cursor: pointer;
+    }
